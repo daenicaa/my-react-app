@@ -1,0 +1,10 @@
+@import 'variables';
+@import 'base';
+@import 'SocialCard';
+@import 'calculator';
+
+.exersiceContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}

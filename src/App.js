@@ -1,26 +1,29 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './style/App.css';
+import './style/style.scss';
+
+import SocialCard from "./components/SocialCard";
+import Calculator from './components/Calculator';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="App">
+			<div className="exersiceContainer">
+				<SocialCard
+				link="www.danicaerediano.com"
+				imagesrc="https://placeimg.com/600/400/any"
+				profimagesrc="https://placekitten.com/g/64/64"
+				imagealt="www.danicaerediano.com"
+				title="Danica Erediano"
+				text="Hello, I'm a Front End Developer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor in..."
+				/>
+
+				<Calculator />
+			</div>
+	  </div>
+	);
 }
 
 export default App;
