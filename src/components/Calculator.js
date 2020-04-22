@@ -59,8 +59,8 @@ class Calculator extends React.Component {
 
     render() {
         return (
-            <div>
-            <h1>Simple Calculator</h1>
+            <section className="calculatorContainer">
+                <h1>Simple Calculator</h1>
                 <div className="calculator">
                     <input type="text" class="form-control"
                         value={this.state.result}
@@ -68,7 +68,7 @@ class Calculator extends React.Component {
                     />
                     <KeyPadComponent onClick={this.onClick}/>
                 </div>
-            </div>
+            </section>
         );
     }
 }

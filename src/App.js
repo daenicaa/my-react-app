@@ -3,9 +3,9 @@ import logo from './logo.svg';
 import './style/App.css';
 import './style/style.scss';
 
-import SocialCard from "./components/SocialCard";
 import Calculator from './components/Calculator';
-
+import List from './components/List';
+import SocialCard from "./components/SocialCard";
 
 function App() {
 	return (
@@ -19,7 +19,7 @@ function App() {
 				title="Danica Erediano"
 				text="Hello, I'm a Front End Developer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor in..."
 				/>
-
+				<List />
 				<Calculator />
 			</div>
 	  </div>
